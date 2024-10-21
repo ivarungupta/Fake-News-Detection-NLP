@@ -14,7 +14,7 @@ This project aims to detect fake news articles using machine learning models and
 - [Usage](#usage)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- [Contact Us](#thanks-&-contact-us)
+- [Contact](#contact)
 
 ## Project Description
 Fake news detection is a crucial problem in today’s digital age. Fake news can spread quickly through social media and news websites, and it often has significant societal impacts. In this project, we use NLP to extract features from news text and machine learning models to classify them as fake or real.
@@ -139,6 +139,6 @@ Contributions are welcome! Feel free to open a pull request or submit issues.
     ```
 5. Open a pull request on GitHub.
 
-## Thanks & Contact Us
+## Contact
 Thanks for checking out this project. Feel free to reach me out at ivarungupta7@gmail.com for any doubts!
 
