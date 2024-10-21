@@ -73,3 +73,38 @@ from sklearn.metrics import classification_report
 
 print(classification_report(y_test, y_pred))
 ```
+## Technologies Used
+- **Python**: Programming language used to build and evaluate the models.
+- **Scikit-learn**: For machine learning models and evaluation metrics.
+- **Pandas**: For data manipulation and analysis.
+- **Numpy**: For numerical operations.
+- **Jupyter Notebook**: For running and documenting code interactively.
+
+## Installation
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/fake-news-detection.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd fake-news-detection
+    ```
+3. Create and activate a virtual environment (optional but recommended):
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use 'venv\Scripts\activate'
+    ```
+4. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+Once the environment is set up and the dependencies are installed, you can run the Jupyter Notebook or Python script to preprocess the data, train the model, and evaluate its performance.
+
+### Running the Notebook:
+```bash
+jupyter notebook Fake-news-detection.ipynb
+```
