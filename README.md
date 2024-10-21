@@ -47,3 +47,16 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 tfidf = TfidfVectorizer(max_features=5000)
 X = tfidf.fit_transform(data['text']).toarray()
 ```
+## Model Training
+Several machine learning models are trained and evaluated:
+- **Logistic Regression**: A simple yet powerful model for binary classification tasks.
+- **Support Vector Machine (SVM)**: A model that works well with text classification.
+- **Naive Bayes**: A popular choice for text-based classification tasks such as spam detection.
+
+### Training Example:
+```python
+from sklearn.linear_model import LogisticRegression
+
+model = LogisticRegression()
+model.fit(X_train, y_train)
+```
