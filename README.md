@@ -60,3 +60,16 @@ from sklearn.linear_model import LogisticRegression
 model = LogisticRegression()
 model.fit(X_train, y_train)
 ```
+## Results
+The models are evaluated based on several performance metrics:
+- **Accuracy**: The percentage of correctly classified articles.
+- **Precision**: The proportion of correctly identified fake news among all predicted fake news.
+- **Recall**: The proportion of actual fake news that was correctly identified.
+- **F1-Score**: A weighted average of precision and recall.
+
+### Evaluation Example:
+```python
+from sklearn.metrics import classification_report
+
+print(classification_report(y_test, y_pred))
+```
