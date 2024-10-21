@@ -14,7 +14,7 @@ This project aims to detect fake news articles using machine learning models and
 - [Usage](#usage)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- [License](#license)
+- [Contact Us](#thanks-&-contact-us)
 
 ## Project Description
 Fake news detection is a crucial problem in today’s digital age. Fake news can spread quickly through social media and news websites, and it often has significant societal impacts. In this project, we use NLP to extract features from news text and machine learning models to classify them as fake or real.
@@ -108,3 +108,37 @@ Once the environment is set up and the dependencies are installed, you can run t
 ```bash
 jupyter notebook Fake-news-detection.ipynb
 ```
+### Running the Python Script:
+```bash
+python app.py
+```
+### Sample Output:
+After running the model, you should see classification metrics such as accuracy, precision, recall, and F1-score, along with a confusion matrix showing the model's performance.
+
+## Future Work
+- **Deep Learning**: Explore using deep learning models such as LSTM or BERT for better results.
+- **Real-Time Detection**: Implement a real-time system for detecting fake news from social media platforms like Twitter.
+- **Multilingual Fake News Detection**: Extend the model to handle fake news in multiple languages.
+
+## Contributing
+Contributions are welcome! Feel free to open a pull request or submit issues.
+
+### Steps to Contribute:
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Commit your changes:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. Open a pull request on GitHub.
+
+## Thanks & Contact Us
+Thanks for checking out this project. Feel free to reach me out at ivarungupta7@gmail.com for any doubts!
+
